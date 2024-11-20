@@ -1,0 +1,1 @@
+C:\Users\User\Desktop\backendStreaming\MauiAppStreaming\MauiAppStreaming\MauiAppStreaming.csproj;x64

@@ -1,0 +1,10 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:charts="clr-namespace:Microcharts.Maui;assembly=Microcharts.Maui"
+             x:Class="MauiAppStreaming.Views.MetricsPage"
+             Title="Análise de Métricas">
+    <StackLayout Padding="20">
+        <Label Text="Visitas Recentes" FontSize="Medium" />
+        <charts:ChartView x:Name="MetricsChart" HeightRequest="200" />
+    </StackLayout>
+</ContentPage>

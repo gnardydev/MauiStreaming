@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="MauiAppStreaming.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:views="clr-namespace:MauiAppStreaming.Views"
+    Shell.FlyoutBehavior="Disabled"
+    Title="MauiAppStreaming">
+
+    <!-- Navegação por abas -->
+    <TabBar>
+        <Tab Title="Upload" Icon="upload.png">
+            <ShellContent
+                Title="Upload de Conteudo"
+                ContentTemplate="{DataTemplate views:UploadContentPage}"
+                Route="UploadContentPage" />
+        </Tab>
+        <Tab Title="Playlists" Icon="playlist.png">
+            <ShellContent
+                Title="Gestao de Playlists"
+                ContentTemplate="{DataTemplate views:ManagePlaylistsPage}"
+                Route="ManagePlaylistsPage" />
+        </Tab>
+        <Tab Title="Métricas" Icon="metrics.png">
+            <ShellContent
+                Title="Analise de Metricas"
+                ContentTemplate="{DataTemplate views:MetricsPage}"
+                Route="MetricsPage" />
+        </Tab>
+    </TabBar>
+
+</Shell>

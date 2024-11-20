@@ -1,0 +1,19 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppStreaming.Views.ManagePlaylistsPage"
+             Title="Gestao de Playlists">
+    <StackLayout Padding="20">
+        <Label Text="Suas Playlists" FontSize="Medium" />
+        <CollectionView x:Name="PlaylistsCollection">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout Orientation="Horizontal" Padding="10">
+                        <Label Text="{Binding Nome}" FontSize="Medium" />
+                        <Button Text="Editar" CommandParameter="{Binding ID}" Clicked="OnEditClicked" />
+                        <Button Text="Excluir" CommandParameter="{Binding ID}" Clicked="OnDeleteClicked" />
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+</ContentPage>

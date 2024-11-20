@@ -1,0 +1,61 @@
+is_global = true
+build_property.TargetFramework = net8.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MauiAppStreaming
+build_property.ProjectDir = C:\Users\User\Desktop\backendStreaming\MauiAppStreaming\MauiAppStreaming\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/User/Desktop/backendStreaming/MauiAppStreaming/MauiAppStreaming/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiAppStreaming.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/User/Desktop/backendStreaming/MauiAppStreaming/MauiAppStreaming/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiAppStreaming.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/User/Desktop/backendStreaming/MauiAppStreaming/MauiAppStreaming/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiAppStreaming.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/User/Desktop/backendStreaming/MauiAppStreaming/MauiAppStreaming/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiAppStreaming.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/User/Desktop/backendStreaming/MauiAppStreaming/MauiAppStreaming/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiAppStreaming.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/User/Desktop/backendStreaming/MauiAppStreaming/MauiAppStreaming/Views/ManagePlaylistPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiAppStreaming.Views.ManagePlaylistPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ManagePlaylistPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ManagePlaylistPage.xaml
+
+[C:/Users/User/Desktop/backendStreaming/MauiAppStreaming/MauiAppStreaming/Views/MetricsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiAppStreaming.Views.MetricsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MetricsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MetricsPage.xaml
+
+[C:/Users/User/Desktop/backendStreaming/MauiAppStreaming/MauiAppStreaming/Views/UploadContentPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiAppStreaming.Views.UploadContentPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\UploadContentPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\UploadContentPage.xaml

@@ -1,0 +1,18 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppStreaming.Views.UploadContentPage"
+             Title="Upload de Conteúdo">
+    <StackLayout Padding="20">
+        <Label Text="Título do Conteúdo" FontSize="Medium" />
+        <Entry Placeholder="Digite o título do conteúdo" x:Name="TitleEntry" />
+
+        <Label Text="Descrição do Conteúdo" FontSize="Medium" Margin="0,10,0,0" />
+        <Editor Placeholder="Digite uma descrição" x:Name="DescriptionEditor" HeightRequest="100" />
+
+        <Label Text="Arquivo de Upload" FontSize="Medium" Margin="0,10,0,0" />
+        <Button Text="Selecionar Arquivo" x:Name="SelectFileButton" />
+
+        <Button Text="Fazer Upload" BackgroundColor="Green" TextColor="White"
+                Margin="0,20,0,0" x:Name="UploadButton" />
+    </StackLayout>
+</ContentPage>
